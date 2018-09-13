@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab1</string>
+    <string name="app_name">我的应用程序</string>
     <string name="hello_message">你好!</string>
     <string name="ButtonText">我是一个按钮</string>
+    <string name="login">登录</string>
+    <string name="edit_message0">登录名</string>
+    <string name="password">密码</string>
+    <string name="radio">单选按钮</string>
+    <string name="check">复选框</string>
+    <string name="edit_message1">这是做什么的？</string>
+
 </resources>
