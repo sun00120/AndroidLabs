@@ -10,28 +10,28 @@
 
     <RadioButton
         android:layout_columnWeight="1"
-        android:gravity="fill"
+        android:layout_gravity="fill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/radio"/>
 
     <CheckBox
         android:layout_columnWeight="1"
-        android:gravity="fill"
+        android:layout_gravity="fill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/check"/>
 
     <Switch
         android:layout_columnWeight="1"
-        android:gravity="fill"
+        android:layout_gravity="fill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/edit_message1"/>
 
     <ImageButton
         android:layout_columnWeight="1"
-        android:gravity="fill"
+        android:layout_gravity="fill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@android:drawable/ic_menu_camera"/>
