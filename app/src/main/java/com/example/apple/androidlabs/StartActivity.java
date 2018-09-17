@@ -10,4 +10,28 @@ public class StartActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
     }
+    
+    protected void onResume(){
+        super.onResume();
+
+    }
+
+    protected void onStart(){
+        super.onStart();
+
+    }
+    protected void onPause(){
+        super.onPause();
+
+    }
+    protected void onStop(){
+        super.onStop();
+
+    }
+    protected void onDestroy(){
+        super.onDestroy();
+
+    }
+
+
 }
