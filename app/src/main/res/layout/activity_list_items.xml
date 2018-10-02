@@ -9,6 +9,7 @@
     tools:context=".ListItemsActivity">
 
     <RadioButton
+        android:id="@+id/RadioButton"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
         android:text="@string/radio"/>
 
     <CheckBox
+        android:id="@+id/CheckBox"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="wrap_content"
@@ -23,6 +25,7 @@
         android:text="@string/check"/>
 
     <Switch
+        android:id="@+id/Switch"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="wrap_content"
@@ -30,6 +33,7 @@
         android:text="@string/edit_message1"/>
 
     <ImageButton
+        android:id="@+id/ImageButton"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_width="wrap_content"

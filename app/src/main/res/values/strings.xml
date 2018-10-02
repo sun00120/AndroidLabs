@@ -8,4 +8,9 @@
     <string name="radio">RadioButton</string>
     <string name="check">Check Box</string>
     <string name="edit_message1">What does this do?</string>
+    <string name="dialog_message">Are you sure to quit?</string>
+    <string name="dialog_title">WARNING</string>
+    <string name="ok">YES</string>
+    <string name="cancel">CANCEL</string>
+
 </resources>
