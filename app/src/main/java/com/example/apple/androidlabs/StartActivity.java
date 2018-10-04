@@ -24,20 +24,31 @@ public class StartActivity extends Activity {
                 startActivityForResult(intent, 50);
             }
         });
-    }
-        protected void onActivityResult(int requestCode, int responseCode, Intent data) {
-            if (requestCode == 50) {
-                Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult()");
-            }
 
-            if (responseCode == Activity.RESULT_OK) {
-                String messagePassed = data.getStringExtra("Response");
-                CharSequence text ="ListItemsActivity passed:";
-                int duration = Toast.LENGTH_LONG;
-                Toast toast = Toast.makeText(this, text+messagePassed, duration);
-                toast.show();
+        Button chatButton = findViewById(R.id.ChatButton);
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+                Intent intent = new Intent(StartActivity.this, ChatWindowActivity.class);
+                startActivity(intent);
             }
+        });
+    }
+
+    protected void onActivityResult(int requestCode, int responseCode, Intent data) {
+        if (requestCode == 50) {
+            Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult()");
         }
+
+        if (responseCode == Activity.RESULT_OK) {
+            String messagePassed = data.getStringExtra("Response");
+            CharSequence text ="ListItemsActivity passed:";
+            int duration = Toast.LENGTH_LONG;
+            Toast toast = Toast.makeText(this, text+messagePassed, duration);
+            toast.show();
+        }
+    }
 
     @Override
     protected void onResume(){

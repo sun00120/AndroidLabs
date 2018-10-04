@@ -1,16 +1,22 @@
 <resources>
+    <!--Lab 1 details-->
     <string name="app_name">My Application</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\’m a button</string>
+    <!--Lab 2 details-->
     <string name="login">login</string>
     <string name="edit_message0">login name</string>
     <string name="password">password</string>
     <string name="radio">RadioButton</string>
     <string name="check">Check Box</string>
     <string name="edit_message1">What does this do?</string>
+    <!--Lab 3 details-->
     <string name="dialog_message">Are you sure to quit?</string>
     <string name="dialog_title">WARNING</string>
     <string name="ok">YES</string>
     <string name="cancel">CANCEL</string>
+    <!--Lab 4 details-->
+    <string name="startchat">Start Chat</string>
+    <string name="ButtonSend">Send</string>
 
 </resources>
