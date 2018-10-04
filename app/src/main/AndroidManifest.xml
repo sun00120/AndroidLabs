@@ -17,14 +17,13 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".LoginActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity" />
-        <activity android:name=".ListItemsActivity" />
-        <activity android:name=".ChatWindowActivity"></activity>
+        <activity android:name=".StartActivity"/>
+        <activity android:name=".ListItemsActivity"/>
+        <activity android:name=".ChatWindowActivity"/>
     </application>
 
 </manifest>
