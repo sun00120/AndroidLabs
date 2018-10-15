@@ -19,6 +19,7 @@ public class StartActivity extends Activity {
         Button button = findViewById(R.id.ImButton);
 
         button.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent, 50);
@@ -37,11 +38,8 @@ public class StartActivity extends Activity {
     }
 
     protected void onActivityResult(int requestCode, int responseCode, Intent data) {
-        if (requestCode == 50) {
+        if (requestCode == 50 && responseCode == Activity.RESULT_OK) {
             Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult()");
-        }
-
-        if (responseCode == Activity.RESULT_OK) {
             String messagePassed = data.getStringExtra("Response");
             CharSequence text ="ListItemsActivity passed:";
             int duration = Toast.LENGTH_LONG;
