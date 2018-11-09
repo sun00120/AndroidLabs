@@ -16,7 +16,13 @@
     <string name="ok">YES</string>
     <string name="cancel">CANCEL</string>
     <!--Lab 4 details-->
-    <string name="startchat">Start Chat</string>
+    <string name="start_chat">Start Chat</string>
     <string name="ButtonSend">Send</string>
+    <!--Lab 6 details-->
+    <string name="weather_forecast">Weather</string>
+    <string name="currentTemperature">Current Temperature:</string>
+    <string name="minTemperature">Minimum Temperature:</string>
+    <string name="maxTemperature">Maximum Temperature:</string>
+    <string name="windSpeed">Wind Speed:</string>
 
 </resources>

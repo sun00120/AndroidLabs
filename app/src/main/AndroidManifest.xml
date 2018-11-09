@@ -6,6 +6,7 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -17,13 +18,15 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".LoginActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity"/>
-        <activity android:name=".ListItemsActivity"/>
-        <activity android:name=".ChatWindowActivity"/>
+        <activity android:name=".StartActivity" />
+        <activity android:name=".ListItemsActivity" />
+        <activity android:name=".ChatWindowActivity" />
+        <activity android:name=".WeatherForecast"></activity>
     </application>
 
 </manifest>
