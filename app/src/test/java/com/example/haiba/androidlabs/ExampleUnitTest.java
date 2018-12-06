@@ -1,4 +1,4 @@
-package com.example.apple.androidlabs;
+package com.example.haiba.androidlabs;
 
 import org.junit.Test;
 

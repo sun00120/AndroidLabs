@@ -1,28 +1,22 @@
 <resources>
-    <!--Lab 1 details-->
     <string name="app_name">My Application</string>
     <string name="hello_message">Hello World!</string>
-    <string name="ButtonText">I\’m a button</string>
-    <!--Lab 2 details-->
-    <string name="login">login</string>
-    <string name="edit_message0">login name</string>
-    <string name="password">password</string>
+    <string name="ButtonText">I\'m a button</string>
+    <string name="login">Login</string>
+    <string name="loginname">login name</string>
+    <string name="passwd">password</string>
+    <string name="swit">What does this do?</string>
     <string name="radio">RadioButton</string>
-    <string name="check">Check Box</string>
-    <string name="edit_message1">What does this do?</string>
-    <!--Lab 3 details-->
-    <string name="dialog_message">Are you sure to quit?</string>
-    <string name="dialog_title">WARNING</string>
-    <string name="ok">YES</string>
-    <string name="cancel">CANCEL</string>
-    <!--Lab 4 details-->
-    <string name="start_chat">Start Chat</string>
-    <string name="ButtonSend">Send</string>
-    <!--Lab 6 details-->
-    <string name="weather_forecast">Weather</string>
-    <string name="currentTemperature">Current Temperature:</string>
-    <string name="minTemperature">Minimum Temperature:</string>
-    <string name="maxTemperature">Maximum Temperature:</string>
-    <string name="windSpeed">Wind Speed:</string>
+    <string name="check">CheckBox</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Alert</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="startChat">Start Chat</string>
+    <string name="send">Send</string>
+    <string name="weather">WeatherForecast</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

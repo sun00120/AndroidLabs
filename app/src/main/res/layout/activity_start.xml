@@ -7,28 +7,40 @@
     tools:context=".StartActivity"
     android:orientation="vertical">
 
+
+
     <TextView
-        android:id="@+id/Hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_message"/>
+        android:text="@string/hello_message"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/ImButton"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ButtonText" />
 
     <Button
-        android:id="@+id/ChatButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/startChat"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/start_chat"/>
+        android:text="@string/startChat"/>
 
     <Button
-        android:id="@+id/weatherButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/weather_forecast" />
+        android:text="@string/weather"/>
+
+    <Button
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Toolbar" />
 
 </LinearLayout>

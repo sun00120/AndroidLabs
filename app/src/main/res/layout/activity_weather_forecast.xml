@@ -4,48 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".WeatherForecast">
+    tools:context=".WeatherForecast"
+    android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/currW"
         android:layout_width="200dp"
-        android:layout_height="200dp"
-        />
+        android:layout_height="200dp" />
 
     <TextView
-        android:id="@+id/currentTemperature"
+        android:id="@+id/currT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/currentTemperature" />
+        android:text="current temperature"/>
+
 
     <TextView
-        android:id="@+id/minTemperature"
+        android:id="@+id/minT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/minTemperature" />
+        android:text="min temperature"/>
+
+
 
     <TextView
-        android:id="@+id/maxTemperature"
+        android:id="@+id/maxT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/maxTemperature" />
+        android:text="max temperature"/>
 
     <TextView
-        android:id="@+id/wind_speed"
+        android:id="@+id/windSpeed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/windSpeed" />
+        android:text="wind speed"/>
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progress"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"/>
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        />
+
+
+
+
 
 </LinearLayout>
